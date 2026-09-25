@@ -54,9 +54,9 @@ load_dotenv()
 # ------------------------------------------------------------
 
 simple_model = ChatOpenAI(
-    model="Atria-Dawn-Preview",
-    api_key=os.getenv("ATRIA_API_KEY"),
-    base_url="https://api.atria-asi.ai/v1",
+    model="qwen3.8-flash:free",
+    api_key=os.getenv("TOKENHARBOR_API_KEY"),
+    base_url="https://tokenharbor.ai/v1",
     temperature=0,
 )
 
